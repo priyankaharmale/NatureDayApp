@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="Welcome to"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="natureday.com"
+        android:textColor="@android:color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_margin="30dp"
+        android:layout_marginTop="40dp"
+android:id="@+id/btn_goto"
+        android:background="@mipmap/rounded_rectangle"
+        android:gravity="center"
+        android:text="Go to Website"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+</LinearLayout>
